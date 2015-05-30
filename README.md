@@ -2,7 +2,7 @@ squareform
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
->  Turns a distance vector into a distance matrix, and vice-versa. 
+>  Turns a distance vector into a distance matrix, and vice-versa.
 
 
 ## Installation
@@ -17,12 +17,12 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var foo = require( 'compute-squareform' );
+var squareform = require( 'compute-squareform' );
 ```
 
-#### foo( arr )
+#### squareform( x )
 
-What does this function do?
+This method creates the full m x m distance matrix which holds the pairwise distances and zeros on the main diagonal.
 
 
 ## Examples
@@ -69,7 +69,7 @@ $ make view-cov
 ---
 ## License
 
-[MIT license](http://opensource.org/licenses/MIT). 
+[MIT license](http://opensource.org/licenses/MIT).
 
 
 ## Copyright

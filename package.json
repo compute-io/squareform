@@ -1,7 +1,7 @@
 {
   "name": "compute-squareform",
   "version": "0.0.0",
-  "description": " Turns a distance vector into a distance matrix, and vice-versa. ",
+  "description": "Turns a distance vector into a distance matrix, and vice-versa.",
   "author": {
     "name": "Philipp Burckhardt",
     "email": "pburckhardt@outlook.com"
@@ -39,10 +39,5 @@
     "jshint": "2.x.x",
     "jshint-stylish": "^1.0.0"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ]
+  "license": "MIT"
 }
